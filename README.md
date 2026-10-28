@@ -33,8 +33,8 @@ Full detail: [`skills/project-scaffold/SKILL.md`](skills/project-scaffold/SKILL.
 
 ## Install it (one-time, per machine)
 
-This only works if Claude Code is already set up and running locally (as
-covered in the course). Open a Claude Code chat and paste this:
+Needs Claude Code already installed and running locally. Open a Claude
+Code chat and paste this:
 
 ```
 Fetch https://raw.githubusercontent.com/graftdmedia/project-build-user-level-skill-framework/main/skills/project-scaffold/SKILL.md
@@ -47,7 +47,13 @@ else to run.
 
 ## Using it
 
-Open a terminal in a new, empty folder for whatever you're building,
-separate from your AI-Brain folder. Run `claude`, then just describe the
-real problem in plain language. Claude will ask a couple of sharp
-questions if anything's missing, then start building.
+Open a terminal in a new, empty folder, one project per folder. Run
+`claude`, then describe the real problem in plain language. Claude will
+ask a couple of sharp questions if anything's missing, then start
+building.
+
+Keep each build in its own folder, separate from any other Claude Code
+project on your machine, especially one with its own context files (a
+business knowledge base, an existing codebase, anything Claude already
+reads on open). That keeps the new build clean and stops it picking up
+context that has nothing to do with it.
