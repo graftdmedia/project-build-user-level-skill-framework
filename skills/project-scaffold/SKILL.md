@@ -1,6 +1,6 @@
 ---
 name: project-scaffold
-description: Turn a plain description of a business problem into a real, structured first version of a working tool or solution — set up safely enough that a developer could pick it up later. Scales its questions and output to match how simple or complex the build actually is. Use when starting a brand new coding project, not for editing something already built.
+description: Turn a plain description of a business problem into a real, structured first version of a working tool or solution, built on the same foundations a developer would use. Scales its questions and output to match how simple or complex the build actually is. Use when starting a brand new coding project, not for editing something already built.
 ---
 
 # What this does
@@ -9,8 +9,7 @@ Takes a plain description of a problem and turns it into a first working
 version of something that solves it. Simple builds get built fast, with
 almost no questions. Builds that touch other systems, other people, or
 sensitive data get a few more questions up front and a short architecture
-note, so there's something a developer can actually review before it goes
-near anyone real.
+note, so the structure holds up when it gets reviewed or handed over.
 
 # Before starting
 

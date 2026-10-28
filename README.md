@@ -1,8 +1,8 @@
 # Project Build — User Level Skill Framework
 
 A single Claude Code skill. It turns a plain description of a business
-problem into a real, structured first version of a working tool, set up
-safely enough that a developer could pick it up later.
+problem into a real, structured first version of a working tool, built
+the way a developer would set one up.
 
 Built by GRAFTD Media.
 
