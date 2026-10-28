@@ -4,8 +4,7 @@ A single Claude Code skill. It turns a plain description of a business
 problem into a real, structured first version of a working tool, set up
 safely enough that a developer could pick it up later.
 
-Built for the GRAFTD Media × Dundalk Chamber Skillnet "Build Your Claude
-AI-Brain" course, Session 4.
+Built by GRAFTD Media.
 
 ## What it does
 
