@@ -73,6 +73,13 @@ interview either way.
 - Pick the simplest technology that solves the actual problem. A single
   HTML file beats a framework. A short script beats a server, if a
   script is all that's needed.
+- If it genuinely needs more than one file to make sense, lay it out the
+  standard way for whatever's being used: a real client/server app gets
+  separate front-end and back-end folders, data and config stay out of
+  the same file as logic. Don't invent a custom layout, use the normal
+  convention for the stack picked.
+- Don't force a front-end/back-end split onto something that doesn't
+  need one — a single script or single page stays a single file.
 - Build the one core thing that matters most first — not every feature,
   the one piece that proves it works.
 - Commit again once it runs.
